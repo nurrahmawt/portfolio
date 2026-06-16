@@ -8,7 +8,7 @@ Personal portfolio website built with Next.js.
 - CSS Modules
 
 ## 🌐 Live Demo
-https://your-vercel-link.vercel.app
+https://portfolio-8cbf.vercel.app/
 
 ## 📦 Installation
 ```bash
