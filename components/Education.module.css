@@ -1,0 +1,100 @@
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(260px, 0.9fr);
+  gap: 24px;
+}
+
+.stack {
+  display: grid;
+  gap: 20px;
+}
+
+.card,
+.certCard {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-md);
+}
+
+.card {
+  padding: 24px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.header h3 {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.meta,
+.type,
+.certIssuer {
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.pill {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-strong);
+  background: rgba(125, 211, 252, 0.12);
+  border: 1px solid rgba(125, 211, 252, 0.18);
+  border-radius: 999px;
+  padding: 6px 10px;
+  white-space: nowrap;
+}
+
+.type {
+  text-transform: capitalize;
+  margin-bottom: 14px;
+}
+
+.points {
+  padding-left: 18px;
+  display: grid;
+  gap: 8px;
+  color: var(--text-secondary);
+}
+
+.points li::marker {
+  color: var(--accent-strong);
+}
+
+.side {
+  display: grid;
+  gap: 14px;
+}
+
+.sideTitle {
+  font-size: 18px;
+}
+
+.certGrid {
+  display: grid;
+  gap: 14px;
+}
+
+.certCard {
+  padding: 18px;
+}
+
+.certTitle {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}

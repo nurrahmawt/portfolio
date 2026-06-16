@@ -1,0 +1,127 @@
+.hero {
+  padding: 40px 0 20px;
+}
+
+.wrapper {
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 760px;
+  display: grid;
+  justify-items: center;
+  gap: 16px;
+  padding: 40px 24px;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.03));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: calc(var(--radius-xl) + 6px);
+  box-shadow: var(--shadow-xl);
+  backdrop-filter: blur(14px);
+}
+
+.badge {
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent-strong);
+}
+
+.avatar {
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(125, 211, 252, 0.3);
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.35);
+}
+
+.name {
+  font-family: var(--font-serif);
+  font-size: clamp(40px, 6vw, 64px);
+  line-height: 1;
+}
+
+.role {
+  color: var(--text-secondary);
+  font-size: 16px;
+}
+
+.summary {
+  max-width: 560px;
+  color: var(--text-secondary);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.primaryAction,
+.secondaryAction {
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-size: 14px;
+  border: 1px solid transparent;
+}
+
+.primaryAction {
+  background: linear-gradient(135deg, var(--accent-strong), var(--accent));
+  color: #07111f;
+  font-weight: 700;
+}
+
+.secondaryAction {
+  border-color: var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-primary);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.tags span {
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.02);
+  padding: 8px 12px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 640px) {
+  .card {
+    padding: 32px 18px;
+  }
+
+  .actions {
+    width: 100%;
+  }
+
+  .primaryAction,
+  .secondaryAction {
+    width: 100%;
+  }
+}
+
+.secondaryAction {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px; /* kalau ada icon */
+  text-align: center;
+}
+
+.icon {
+  font-size: 16px;
+}
