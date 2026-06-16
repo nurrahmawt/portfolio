@@ -3,12 +3,15 @@ import type { Metadata, Viewport } from "next";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "Nur Rahmawati — AI Engineer",
+  title: "Nur Rahmawati | Portfolio",
   description: "AI & Data Portfolio",
+  icons: {
+    icon: "/image/icon.png",
+  },
   authors: [{ name: "Nur Rahmawati" }],
   keywords: ["AI", "Machine Learning", "Data Science", "Portfolio"],
   openGraph: {
-    title: "Nur Rahmawati — AI Engineer",
+    title: "Nur Rahmawati | Portfolio",
     description: "AI & Data Portfolio",
   },
 };
