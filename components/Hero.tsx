@@ -25,7 +25,7 @@ export default function Hero() {
               View Projects
             </a>
             <a 
-              href="/file/CV_Nur_Rahmawati.pdf" 
+              href="/file/CV.pdf" 
               className={styles.secondaryAction}
               download
               target="_blank"
