@@ -299,6 +299,16 @@ export const certifications: Certification[] = [
     file: "/file/sertifikat_bnsp.pdf",
   },
   {
+    title: "Data Scientist Training",
+    issuer: "Komdigi",
+    file: "/file/sertifikat_komdigi.pdf",
+  },
+  {
+    title: "Data Scientist Training",
+    issuer: "LSP Darmajaya",
+    file: "/file/sertifikat_lsp_darmajaya.pdf",
+  },
+  {
     title: "Data Analysis Fundamentals",
     issuer: "Dicoding",
     relevantProjectId: "student-retention-dashboard",
