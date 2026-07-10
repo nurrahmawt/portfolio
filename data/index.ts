@@ -256,6 +256,10 @@ export const education: Experience[] = [
 
 export const skills: Skill[] = [
   {
+    label: "Programming & Scripting",
+    items: ["Python", "SQL", "JavaScript", "HTML", "CSS", "Kotlin"],
+  },
+  {
     label: "AI / ML",
     items: [
       "Machine Learning",
@@ -276,7 +280,7 @@ export const skills: Skill[] = [
   },
   {
     label: "Frontend & Backend",
-    items: ["HTML", "CSS", "JavaScript", "Flask", "FastAPI", "Streamlit", "Firebase", "React", "Next.js"],
+    items: ["Flask", "FastAPI", "Streamlit", "Firebase", "React", "Next.js"],
   },
   {
     label: "Deployment & Integration",
