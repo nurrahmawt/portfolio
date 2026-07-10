@@ -6,7 +6,7 @@ export default function Hero() {
     <section id="home" className={styles.hero}>
       <div className={`container ${styles.wrapper}`}>
         <div className={styles.card}>
-          <img src="/image/profile.jpg" alt="profile" className={styles.avatar} />
+          <img src="/image/profile2.jpeg" alt="profile" className={styles.avatar} />
 
           <p className={styles.badge}>AI & Data Enthusiast</p>
 
@@ -17,7 +17,7 @@ export default function Hero() {
           </p>
 
           <p className={styles.summary}>
-            Building AI-driven solutions from data to deployment with a focus on real-world impact and intelligent systems.
+            Delivering data-driven and AI-powered projects from concept to deployment, with a focus on collaboration, structured workflows, and real-world impact.
           </p>
 
           <div className={styles.actions}>
