@@ -188,11 +188,28 @@ export const projects: Project[] = [
   }
 ];
       export const workExperiences: Experience[] = [
+       {
+      role: "Procurement Data Management",
+      company: "PT. Great Giant Pineapple",
+      location: "Lampung Tengah, Lampung",
+      period: "Aug 2026 – Present",
+      type: "internship",
+      sections: [
+      {
+      points: [
+      "Performed data cleansing, validation, and standardization of procurement data to improve data quality and consistency.", 
+      "Designed a three-level classification taxonomy (Work Type, Object, Sub-Object) to turn unstructured procurement short-text items into consistent, analysis-ready categories.",
+      "Retrieved, consolidated, and cross-checked procurement data using SAP and Microsoft Excel",
+      "Managed and verified vendor document attachments in SAP, ensuring document completeness and proper organization"
+      ]
+    }
+  ]
+},
       {
       role: "Data Entry Operator",
       company: "Kantor Kepala Pekon Parerejo",
       location: "Pringsewu, Lampung",
-      period: "Jul – Aug 2025",
+      period: "Jul 2025 – Aug 2025",
       type: "internship",
       sections: [
       {

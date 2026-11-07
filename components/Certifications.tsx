@@ -11,13 +11,15 @@ export default function Certifications() {
         <h2 className="section-title">Certifications</h2>
 
         <div className={styles.grid}>
-          {certifications.map((certification) => {
+          {certifications.map((certification, index) => {
             const related = certification.relevantProjectId
               ? projects.find((p) => p.id === certification.relevantProjectId)
               : undefined;
 
+            const certificationKey = `${certification.title}-${certification.issuer}-${certification.file ?? certification.url ?? index}`;
+
             return (
-              <article key={certification.title} className={styles.card}>
+              <article key={certificationKey} className={styles.card}>
                 <p className={styles.title}>{certification.title}</p>
                 <p className={styles.issuer}>{certification.issuer}</p>
 
