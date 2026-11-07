@@ -304,8 +304,12 @@ export const skills: Skill[] = [
     items: ["Flask REST API", "FastAPI", "Streamlit", "Vercel", "TFLite", "TF.js", "IP Webcam", "Docker"],
   },
   {
-    label: "Data & Business Intelligence",
+    label: "Data, BI, ",
     items: ["Google Data Studio", "Power BI", "Excel"],
+  },
+  {
+    label: "Enterprise Systems",
+    items: ["SAP ERP (Basic)", "SAP MM (Basic Exposure)"],
   },
   {
     label: "Data Mining Tools",
